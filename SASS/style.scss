@@ -1,0 +1,65 @@
+body {
+  $color-primario:#15171c;
+    font-family: 'Times New Roman', Times, serif;
+    nav {
+        background-color: #15171c;
+        h2 { animation-duration: 2s; animation-name: aparecer;
+             animation-iteration-count: infinite; color: #f7f0f0; }
+        @keyframes aparecer {
+            0% {
+            opacity: 0;
+            100% {
+            }
+            }
+            } opacity: 1;
+    }
+    .card {
+        border: 5px solid #8a8a8a;
+        background-color: #6e6e6e;
+        font-family: 'Helvetica Neue', sans-serif; 
+        color: #f7f0f0; /* Color de texto en las tarjetas */
+        &:hover {
+            border-color: #3d00cc;
+            background-color: #949494;
+        }
+    }
+    .card-body {
+      border-radius: 10px;
+        background-image: linear-gradient(to bottom, #ec2020, #b30177);
+        color:  #969696;
+    }
+    .btn {
+            background-color: #3871ec;
+            color: #ffffff;
+            &:hover {
+                background-color: #2141ac;
+                color: #ffffff;
+            }
+    }
+    #elementos { background-color:#15171c;
+    }
+    h1 { text-align: center;
+    color: rgb(143, 116, 28);
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    background-color: #133485;
+  }
+  @media screen and (max-width: 768px) {
+
+  }
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+   
+  }
+  
+  @media screen and (min-width: 1025px) {
+   
+  }
+  h4 {margin-top: 600px;}
+  footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: large;
+  }
+   
+  }
